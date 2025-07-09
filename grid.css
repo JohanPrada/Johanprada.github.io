@@ -1,0 +1,16 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px auto auto auto; /* Yo puedo colocar diferentes tamaños o que sea auto y el número de columnas*/
+    /* entre mayor sea el número de autos o dimensiones me determina el número de columnas*/
+    gap: 10px;  /*el gap es el tamaño de separación entre columnas*/
+}
+
+.grid-item{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.grid-item:hover{ /*el hover se puede aplicar para cualquier cosa, ya sea un cuadro o texto y sirve es para resaltar una opciónn*/
+    background-color: red;
+
+}

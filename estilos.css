@@ -1,0 +1,72 @@
+body{
+    background-color:lightblue;
+
+}
+
+h1{
+    color: green;
+}
+
+.primaria{
+    color: blue;
+}
+
+.secundario{
+    color: red;
+    font-size: 50px;
+    font-family: Impact;
+    font-style: italic;
+}
+
+.Colorproducto{
+    background-color: chocolate;
+}
+
+#parrafo2{
+    color: green;
+}
+
+.terciario{
+    color: green;
+}
+
+.contenedor1{
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+    padding: 30px;
+    border: 3px solid black
+
+}
+
+.contenedor2{
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+    padding: 30px;
+    border: 3px dotted black
+
+}
+
+.Titulo{
+    width: 300px;
+    height: 250px;
+    margin: 40px;
+    padding: 30px;
+    border: 3px double black
+
+}
+
+.video{
+    width: 400px;
+    height: 600px;
+    margin: 40px;
+    padding: 30px;
+    border: 3px solid black
+}
+
+.video1{
+    width: 350px;
+    height: 400px;
+
+}
