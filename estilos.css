@@ -1,5 +1,10 @@
 body{
-    background-color:lightblue;
+    background-image: url(JAPON.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    color: white;
 
 }
 
@@ -70,3 +75,20 @@ h1{
     height: 400px;
 
 }
+
+/*@keyframes mover {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(300px);}
+
+}
+
+@keyframes girar {
+    0% {transform: rotate (0deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+
+div{  /* puedo usar el div, h1 o cualquier elemento del html para aplicarle la animación*/
+    animation: mover 5s infinite linear; /* infinite significa que la animación se repite y el linear que es constante*/
+}
+
